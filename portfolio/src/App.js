@@ -1,8 +1,18 @@
 import React from 'react';
-import Portfolio from './components/Form/index';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Project from './components/Project';
+
 
 function App() {
-  return <Portfolio />;
+  return (
+  <div> 
+    <Footer />
+    <Header />
+    <Project />
+    <Footer />
+    </div>
+ );
 }
 
 export default App;
