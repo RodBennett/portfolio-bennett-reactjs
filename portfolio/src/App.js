@@ -1,18 +1,13 @@
-import React from 'react';
-import Footer from './components/Footer';
+// import { useState } from 'react'
 import Header from './components/Header';
-import Project from './components/Project';
+import React from 'react'
+// import Navigation from './components/Navigation'
+// import Project from './components/Project';
+// import Footer from './components/Footer';
 
 
 function App() {
-  return (
-  <div> 
-    <Footer />
-    <Header />
-    <Project />
-    <Footer />
-    </div>
- );
+  return <Header title="Rod Bennett Portfolio"/>
 }
 
 export default App;

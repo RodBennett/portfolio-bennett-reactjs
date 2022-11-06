@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 
-// impost style sheet for Project
-import '../styles/Project.css'
-
-
+// // impost style sheet for Project
+// import '../styles/Project.css'
 
 
 
-export default Project;
+
+
+// export default Project;
