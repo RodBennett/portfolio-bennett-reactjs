@@ -7,7 +7,12 @@ import Navigation from './components/Navigation'
 
 
 function App() {
-return <Navigation />
+return (
+    <nav className="nav">
+        <Header  title="Rod Bennett Portfolio"/>
+        <Navigation />
+    </nav>
+)
 //   return <Header title="Rod Bennett Portfolio"/>
 }
 

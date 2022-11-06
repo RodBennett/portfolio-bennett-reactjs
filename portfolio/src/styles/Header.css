@@ -2,5 +2,13 @@
     display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:large;
+}
 
+nav {
+    display: flex;
+}
+
+.nav-item {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
 }
