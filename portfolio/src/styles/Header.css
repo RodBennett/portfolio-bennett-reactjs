@@ -1,14 +1,17 @@
 .header {
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:large;
+    margin-left: 10px;
 }
 
 nav {
-    display: flex;
+   margin-left: 100px;
 }
 
 .nav-item {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
+    margin-left: 20px;
 }
