@@ -1,9 +1,12 @@
-import '../styles/About.scss'
+import '../../styles/About.scss'
+import image from '../../images/profile.jpeg'
+
 
 const About = () => {
   return (
     <div className="about-container">
-      <img src=""></img>
+       <p>HELLO WORLD</p>
+      <img src={image} alt="Profile"></img>
     </div>
   )
 }
