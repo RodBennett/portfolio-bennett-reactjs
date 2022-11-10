@@ -4,7 +4,10 @@ import React from 'react'
 import Navigation from './components/Navigation'
 // import Project from './components/Project';
 // import Footer from './components/Footer';
+import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 // logic to render different pages
 
@@ -20,20 +23,22 @@ function App() {
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
           }
+        if (currentPage === "Contact") {
+            return <Contact />
+        }
           if (currentPage === 'Resume') {
             return <Resume />;
           }
-          return <Contact />;
         };
-        
+
     const handlePageChange = (page) => setCurrentPage(page);
 
 return (
     <nav className="nav">
         <Header  title="Rod Bennett Portfolio"/>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
-        <Portfolio  currentPage={currentPage} handlePageChange={handlePageChange}/>
-
+        {/* <About currentPage={currentPage} handlePageChange={handlePageChange} /> */}
+        {/* <Portfolio  currentPage={currentPage} handlePageChange={handlePageChange}/> */}
         {renderPage()}
     </nav>
 )

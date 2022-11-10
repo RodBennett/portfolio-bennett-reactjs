@@ -2,7 +2,7 @@
 const Portfolio = () => {
   return (
     <div>
-      <h1>HELLO THIS IS THE PORTFOLIO PAGE</h1>
+      <h2>HELLO THIS IS THE PORTFOLIO PAGE</h2>
     </div>
   )
 }
