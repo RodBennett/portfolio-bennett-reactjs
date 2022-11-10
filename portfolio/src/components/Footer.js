@@ -1,8 +1,13 @@
-// import React from 'react';
+import github from '../images/github.png'
 
-// //  IMPORT STYLE SHEET FOR HEADER.CSS
-// // * MAY NEED ONE LESS period
-// import '../styles/Footer.css'
+const Footer = () => {
+  return (
+    <div>
+        <a href="https://github.com/RodBennett">
+      <img src={github} alt="github icon" />
+      </a>
+    </div>
+  )
+}
 
-
-// export default Footer;
+export default Footer

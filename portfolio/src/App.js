@@ -3,7 +3,7 @@ import Header from './components/Header';
 import React from 'react'
 import Navigation from './components/Navigation'
 // import Project from './components/Project';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
@@ -41,6 +41,7 @@ return (
         {/* <About currentPage={currentPage} handlePageChange={handlePageChange} /> */}
         {/* <Portfolio  currentPage={currentPage} handlePageChange={handlePageChange}/> */}
         {renderPage()}
+        <Footer />
     </nav>
 )
 }

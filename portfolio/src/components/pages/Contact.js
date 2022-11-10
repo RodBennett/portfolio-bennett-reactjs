@@ -31,7 +31,7 @@ const Contact = () => {
             setErrorMessage('Email not valid.  Please try again')
             return;
         }
-
+        // SETS EMPTY FIELDS FOR OUR FORM AND ERROR MESSAGE AFTER EMAIL VALIDATOR ACCEPTS IT
         setUserName('');
         setEmail('');
         setErrorMessage('');
