@@ -1,7 +1,9 @@
+import '../styles/About.scss'
+
 const About = () => {
   return (
-    <div>
-      
+    <div className="about-container">
+      <img src=""></img>
     </div>
   )
 }

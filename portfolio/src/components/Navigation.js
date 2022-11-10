@@ -1,5 +1,6 @@
 // import style sheet for Navigation
-import '../styles/Header.css'
+// import '../styles/Header.css'
+import '../styles/Navigation.scss'
 import React from 'react'
 
 function Navigation ( {currentPage, handlePageChange }) {
@@ -7,8 +8,8 @@ function Navigation ( {currentPage, handlePageChange }) {
     <ul className="header">
         <li className="nav-item">
             <a href="#about"
-            onClick={() => handlePageChange('about')}
-            className={currentPage === "about" ? "nav-link active" : "nav-link"}
+            onClick={() => handlePageChange('About')}
+            className={currentPage === "About" ? "nav-link active" : "nav-link"}
             >
                 About Me
             </a>

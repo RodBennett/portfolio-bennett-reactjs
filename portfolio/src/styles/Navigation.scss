@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fantasy:wght@300;400&display=swap');
+
+    li {
+        display: flex;
+        justify-content: space-around;
+        color: blue;
+        font-style: 'Poppins', 'san-serif';
+        a {
+            background-color: yellow;
+            font-family: cursive;
+        }
+    }
+.nav-link:active {
+    color: red;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
