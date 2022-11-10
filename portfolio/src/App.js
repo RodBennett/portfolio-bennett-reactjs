@@ -31,6 +31,7 @@ function App() {
           }
         };
 
+    // FUNCTION FOR HANDLING AND SETTING NEW PAGES WITH NAV LINKS
     const handlePageChange = (page) => setCurrentPage(page);
 
 return (
