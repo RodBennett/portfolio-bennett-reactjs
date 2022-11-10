@@ -1,19 +1,12 @@
 .footer-container {
+    flex: 2;
     display: flex;
-    justify-content: space-evenly;
-}
-.github-icon {
-    height: 10;
-    width: 10px;
+    justify-content: center;
 }
 
 i {
-    max-width: 100px;
+    max-width: 200px;
+    margin: 10px;
+    height:1rem
 }
-img {
-    max-width: 100px;
-}
-.linkedin-icon {
-    height: 10px;
-    width: 1px;
-}
+
