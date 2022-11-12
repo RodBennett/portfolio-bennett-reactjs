@@ -1,10 +1,15 @@
-import '../styles/Header.css'
+import '../styles/Header.scss'
 
-function Header ({title}) {
+function Header () {
+
   return (
-    <header className="header">
-      <h1> {title} </h1>
-      
+    <header>
+      <h1> Rod Bennett </h1>
+      <h3> Web Developer </h3>
+      <ul className="list">
+        <li className="nav-item">
+          </li>
+          </ul>
     </header>
   )
 }

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header';
 import React from 'react'
 import Navigation from './components/Navigation'
-// import Project from './components/Project';
+import Project from './components/Project';
 import Footer from './components/Footer';
 import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
@@ -15,7 +15,7 @@ function App() {
 // CREATE VARIABLE TO HANDLE PAGES AND STATE CHANGES
     const [currentPage, setCurrentPage] = useState('About');
 
-    // FUNCTION TO RENDER THE PAGE 
+    // // FUNCTION TO RENDER THE PAGE 
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />
@@ -35,14 +35,15 @@ function App() {
     const handlePageChange = (page) => setCurrentPage(page);
 
 return (
-    <nav className="nav">
-        <Header  title="Rod Bennett Portfolio"/>
+    <div>
+        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
-        {/* <About currentPage={currentPage} handlePageChange={handlePageChange} /> */}
-        {/* <Portfolio  currentPage={currentPage} handlePageChange={handlePageChange}/> */}
+        {/* <About currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Portfolio currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Contact currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Footer currentPage={currentPage} handlePageChange={handlePageChange}/> */}
         {renderPage()}
-        <Footer />
-    </nav>
+    </div>
 )
 }
 

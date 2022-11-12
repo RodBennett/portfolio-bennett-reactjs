@@ -1,13 +1,11 @@
-// import style sheet for Navigation
-// import '../styles/Header.css'
-import '../styles/Navigation.scss'
-import React from 'react'
-
+import '../styles/Header.scss'
 
 function Navigation ( {currentPage, handlePageChange }) {
-    
+
   return (
-    <ul className="header">
+    <header className='navBar'>
+    <nav className="navBar">
+    <ul className="list">
         <li className="nav-item">
             <a href="#about"
             onClick={() => handlePageChange('About')}
@@ -42,6 +40,8 @@ function Navigation ( {currentPage, handlePageChange }) {
             </a>
         </li>
     </ul>
+    </nav>
+    </header>
   )
 }
 

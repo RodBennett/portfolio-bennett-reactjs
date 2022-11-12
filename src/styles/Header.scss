@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fantasy:wght@300;400&display=swap');
+
+header {
+    display: block;
+    text-align:center;
+    margin: auto;
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+
+    h3::after {
+        white-space: pre;
+        font-size: 1rem;
+
+    }
+    .list {
+        display: inline;
+        font-family: monospace;
+        
+
+        .nav-item {
+            display: inline;
+            list-style: none;
+            margin-left: 60px;
+            font-family: monospace;
+
+            a {
+                font-family: monospace;
+                font-size: 1.5rem;
+                list-style: none;
+                background-color: rgb(227, 166, 91);
+                
+            }
+        }
+    }
+}
+
+
+    li {
+        display: flex;
+        justify-content: space-around;
+        color: blue;
+        font-style: 'Poppins', 'san-serif';
+        a {
+            background-color: yellow;
+            font-family: cursive;
+        }
+    }
+.nav-link:active {
+    color: red;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
