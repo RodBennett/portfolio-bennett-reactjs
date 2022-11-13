@@ -8,7 +8,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='footer-container'>
+    <footer>
         <a className="github-icon" href="https://github.com/RodBennett" target="blank">
         <i><FaGithub /></i>
         </a>
@@ -16,7 +16,7 @@ const Footer = () => {
         <i><FaLinkedin /></i>
         </a>
     
-    </div>
+    </footer>
   )
 }
 
