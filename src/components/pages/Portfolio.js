@@ -4,7 +4,7 @@ import '../../styles/Project.css'
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
-      <h2>HELLO THIS IS THE PORTFOLIO PAGE</h2>
+      <h2 class>Click on the images to view projects</h2>
 <Project />
     </div>
   )
