@@ -1,3 +1,7 @@
+body {
+    background-color: green;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Fantasy:wght@300;400&display=swap');
 * {
     margin: 0;
@@ -49,7 +53,7 @@ header {
                 }
 
                 .nav-link:active {
-                    color: #355c7d;
+                    color: red;
                 }
 
                 .nav-link:focus {

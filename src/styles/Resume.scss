@@ -1,0 +1,21 @@
+.resume-container {
+    font-family: monospace;
+
+    .resume-link {
+        padding: 20px;
+    }
+
+    .resume-headers { 
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+    .resume-list {
+        margin-left: 20px;
+        font-size: large;
+
+        .resume-items {
+            margin-left: 20px;
+        }
+    }
+
+}

@@ -1,15 +1,10 @@
 .project-container {
+    font-family: monospace;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     width: 100%;
-
-    h2 {
-        text-align: center;
-        margin-top: 15px;
-        color: #355c7d;
-    }
 
     .project-card {
         padding: 5px;
@@ -51,4 +46,13 @@
     .image:active {
         box-shadow: rgb(50, 45, 45) 2px 2px 2px 2px;
     }
+}
+
+.portfolio-text {
+    padding: 5px;
+    font-family: monospace;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    margin-left: 10px;
 }
