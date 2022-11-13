@@ -40,6 +40,7 @@ const Contact = () => {
     <div>
         <h3>Please enter your contact info here</h3>
         <form className="form">
+            <label>Name:</label><br></br>
             <input
                 value={userName} 
                 name="username"
@@ -47,6 +48,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Please enter your name"
                 /><br></br>
+            <label>Email:</label><br></br>
             <input 
                 value={email}
                 name="email"
