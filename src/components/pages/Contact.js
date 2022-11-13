@@ -1,8 +1,7 @@
-// import useState for forms
+import '../../styles/Contact.scss'
 
 import { useState } from "react"
 import { validateEmail } from "../../utils/helpers";
-// import { checkPassword } from '../../utils/helpers';
 
 const Contact = () => {
     // SET VARIABLES FOR FIRST AND LAST NAME WITH USESTATE BEGINNING WITH EMPTY STRING FOR FORM
@@ -38,10 +37,13 @@ const Contact = () => {
     }
   return (
     <div>
-        <h3>Please enter your contact info here</h3>
+        <h3>Rod's Email: <a href="mailto: rod.bennett75@gmail.com">rod.benett75@gmail.com</a></h3>
+        <h3> Check out Rod's <a href="https://github.com/RodBennett">Github Profile</a> here</h3>
+        <h3 className='or'> OR </h3>
+        <h3> Sign-up for Rod's mailing list here:</h3>
         <form className="form">
-            <label>Name:</label><br></br>
-            <input
+            <label className="label">Name:</label><br></br>
+            <input className='input-field'
                 value={userName} 
                 name="username"
                 onChange={handleInputChange}
@@ -49,14 +51,14 @@ const Contact = () => {
                 placeholder="Please enter your name"
                 /><br></br>
             <label>Email:</label><br></br>
-            <input 
+            <input className='input-field'
                 value={email}
                 name="email"
                 onChange={handleInputChange}
                 type="email"
                 placeholder="Please enter your email"
             /><br></br>
-            <button type="button" onClick={handleFormSubmit}>Submit</button>
+            <button className='button' type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         
         {errorMessage && (
