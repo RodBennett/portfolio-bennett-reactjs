@@ -4,7 +4,7 @@ function Navigation ( {currentPage, handlePageChange }) {
 
   return (
     <header>
-    <nav className="navBar">
+    <nav>
     <ul className="list">
         <li className="nav-item">
             <a href="#about"
