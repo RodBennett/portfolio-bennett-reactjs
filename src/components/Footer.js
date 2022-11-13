@@ -12,10 +12,10 @@ const Footer = () => {
         <a className="github-icon" href="https://github.com/RodBennett" target="blank">
         <i><FaGithub/></i>
         </a>
-        <a className="linkedin-icon" href="#" target="blank">
+        <a className="linkedin-icon" href="https://www.linkedin.com/" target="blank">
         <i><FaLinkedin /></i>
         </a>
-    
+
     </footer>
   )
 }
