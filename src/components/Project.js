@@ -7,7 +7,7 @@ import notetaker from '../images/notetaker.png'
 import textedit from '../images/text-editor.png'
 
 
-import '../styles/Project.css'
+import '../styles/Project.scss'
 
 const Project = () => {
   return (
