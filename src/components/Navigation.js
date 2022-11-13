@@ -3,7 +3,7 @@ import '../styles/Header.scss'
 function Navigation ( {currentPage, handlePageChange }) {
 
   return (
-    <header className='navBar'>
+    <header>
     <nav className="navBar">
     <ul className="list">
         <li className="nav-item">

@@ -36,13 +36,10 @@ function App() {
 
 return (
     <div>
-        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Header />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
-        {/* <About currentPage={currentPage} handlePageChange={handlePageChange}/>
-        <Portfolio currentPage={currentPage} handlePageChange={handlePageChange}/>
-        <Contact currentPage={currentPage} handlePageChange={handlePageChange}/>
-        <Footer currentPage={currentPage} handlePageChange={handlePageChange}/> */}
         {renderPage()}
+        <Footer />
     </div>
 )
 }
