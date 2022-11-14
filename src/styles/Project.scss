@@ -40,8 +40,8 @@
         
              .project-text:hover + .hide {
                  display: block;
-                 opacity: 100%;
-                 transition: opacity 1s;
+                 opacity: 0%;
+                 transition: opacity .5s;
                 }
 
                 .hide:hover {
@@ -54,15 +54,6 @@
                     font-size: 1rem;
                     margin-bottom: 30px;
                 }
-
-            // .project-text {
-            //     margin-top: 20px;
-            //     text-align: center;
-            //     margin-bottom: 0px;
-            //     margin: auto;
-            //     font-size: smaller;
-            //     text-decoration: none;
-            // }
         }
 
         .image {
