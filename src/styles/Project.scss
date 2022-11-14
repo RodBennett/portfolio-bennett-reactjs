@@ -1,14 +1,14 @@
 .project-container {
     font-family: monospace;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     width: 100%;
 
     .project-card {
         padding: 5px 0 0 0;
-        margin: 10px ;
+        margin: 10px;
         max-width: 35%;
         margin-top: 10px;
 
@@ -33,27 +33,22 @@
             .hide {
                 display: none;
                 color: #355c7d;
-                font-size: 2rem;
+                font-size: 2.3rem;
                 margin: auto;
                 margin-bottom: 10px;
-                }
-        
-             .project-text:hover + .hide {
-                 display: block;
-                 opacity: 0%;
-                 transition: opacity .5s;
-                }
+            }
 
-                .hide:hover {
-                    display: block;
-                    opacity: 100%;
-                    transition: opacity 1s;
-                }
+            .project-text:hover+.hide {
+                display: block;
+                opacity: 0%;
+                transition: opacity .5s;
+            }
 
-                .git-text {
-                    font-size: 1rem;
-                    margin-bottom: 30px;
-                }
+            .hide:hover {
+                display: block;
+                opacity: 100%;
+                transition: opacity 1s;
+            }
         }
 
         .image {
@@ -76,7 +71,7 @@
     }
 }
 
-.portfolio-text {
+.section-header {
     padding: 5px;
     font-family: monospace;
     font-style: italic;
