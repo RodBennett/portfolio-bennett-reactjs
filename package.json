@@ -1,8 +1,8 @@
-{
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://RodBennett.github.io/bennett-portfolio/",
+{ "name": "bennett-portfolio",
+"version": "0.1.0",
+"private": true,
+"homepage": "https://RodBennett.github.io/porfolio-bennett-reactjs",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
@@ -15,19 +15,23 @@
     "sass": "^1.56.1",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+
   },
   "browserslist": {
     "production": [
@@ -35,6 +39,7 @@
       "not dead",
       "not op_mini all"
     ],
+
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

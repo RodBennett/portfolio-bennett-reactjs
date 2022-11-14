@@ -4,7 +4,7 @@
 
 The code contained in this repository is my project portfoliio which exhibits six projects I have worked on during the University of Denver coding bootcamp. This application was built on Reactjs.  
 
-### [Deployment Link](https://rodbennett.github.io/bennett-portfolio/)
+### [Deployment Link]()
 
 ## Table Of Contents
 - [Acceptance Criteria](#acceptance-criteria)
