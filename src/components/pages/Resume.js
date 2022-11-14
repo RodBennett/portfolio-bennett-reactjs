@@ -1,4 +1,4 @@
-// import stylesheet for resume page
+
 import '../../styles/Resume.scss'
 
 
