@@ -1,9 +1,9 @@
 .about-container {
-    // display: flex;
-    flex: 2;
+    display: inline-block;
+    flex: auto;
+    align-items:flex-start;
     font-family: monospace;
     padding: 20px;
-
 }
 
 .section-header {
@@ -23,5 +23,15 @@
 }
 
 .profile-text {
+    display: flex;
     font-size: 1rem;
+    flex: 2 1;
 }
+
+// @media only screen and (min-width: 600px) {
+//     body {
+//         // background-color: rgb(163, 218, 237);
+//         background-color: #92c9d5;
+//         flex-direction: column;
+//     }
+// }

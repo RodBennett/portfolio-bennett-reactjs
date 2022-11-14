@@ -29,7 +29,6 @@ const About = () => {
         Thanks for visiting! {'\n'}
         {'\n'}
         - Rod 
-      
         </pre>
     </div>
   )
