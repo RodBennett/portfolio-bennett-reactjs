@@ -47,11 +47,25 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Static Screenshots
+
+<img width="1300" src="./src/images/about.png">
+<img width="1300" src="./src/images/porfolio.png">
+<img width="1300" src="./src/images/contact.png">
+<img width="1300" src="./src/images/resume.png">
+
 ## Installation
+As this is a fully front-end app, no installation is required.
+
 ## Challenges
+Ultimately, all of the hardest challenges had to do with styling because I haven't done this level of it in quite a while. Learning React had a few challenges, but it is more intuitive than some of the other MVC models we have learned in this course. For this project, I decided to use SASS for styling, which was great (the nesting element is extrememly useful) and I intend to use it from now on.  However, like anything else, there was a learning curve involved.  
+
 ## Future Development
+Our final group project is coming up, and I feel very comfortable using React, at least on the front-end.  But we have dabbled in back-end functionality for React and is seems more straightforward than the HandleBars engine we used before.
+
 ## Contributing
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+As this is an assignment for a coding bootcamp, outside contributions are discouraged.
 
 ## Technology Used
 - [Reactjs](https://reactjs.org/): for front-end development
@@ -59,14 +73,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [Github Pages](https://pages.github.com/): for deployment
 
 ## Contact Info
-- Email Rod: rod.bennett75@gmail.com
-- [Rod's Github Profile](https://github.com/RodBennett)
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-
+- [Email me](rod.bennett75@gmail.com)
+- [My Github Profile](https://github.com/RodBennett)
 

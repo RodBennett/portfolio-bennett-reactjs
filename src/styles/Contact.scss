@@ -35,14 +35,20 @@ h3 {
         width: 35%;
         font-family: monospace;
         font-size: x-large;
-        margin-top: 10px;
+        margin-top: 20px;
         background-color:#fcf2ec;
         color:  #355c7d;
-        height: 40px;
-        margin-bottom: 40px;;
+        height: 50px;
+        margin-bottom: 20px;;
     }
 }
+.error-text {
 
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
 a {
     text-decoration: none;
 }
