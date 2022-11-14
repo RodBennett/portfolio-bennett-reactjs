@@ -1,32 +1,39 @@
 h3 {
+    padding: 10px;
     font-family: monospace;
     font-size:x-large;
 }
-.or {
-    margin-top: 50px;
-}
+
 .form {
     font-family: monospace;
     font-size:x-large;
-    margin-top: 30px;
+    padding: 20px;
 
     ::placeholder {
         font-family: monospace;
         font-size:x-large;
+        padding: 5px;
         }
-
+        
     .input-field {
-        font-size: x-large;
-        width: 30%;
-    }
+        font-size: large;
+        width: 35%;
+        height: 40px;
 
+    }
+    .message-field {
+        height: 150px;
+        width: 35%;
+        font-size: large;
+        font-family: monospace;
+    }
     .button {
-        width: 31%;
+        width: 35%;
         font-family: monospace;
         font-size: x-large;
         margin-top: 10px;
-        background-color: #355c7d;
-        color: #fcf2ec;
+        background-color:#fcf2ec;
+        color:  #355c7d;
         height: 40px;
     }
 }

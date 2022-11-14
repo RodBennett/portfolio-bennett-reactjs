@@ -7,6 +7,7 @@ const Contact = () => {
     // SET VARIABLES FOR FIRST AND LAST NAME WITH USESTATE BEGINNING WITH EMPTY STRING FOR FORM
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
+    const [message, setMessage] = useState('');
 
     // VALIDATE EMAIL ADDRESS HERE WITH HELPERIN UTILS
     const [errorMessage, setErrorMessage] = useState('');
@@ -21,7 +22,8 @@ const Contact = () => {
             setUserName(inputValue);
         } else if (inputType === 'email') {
             setEmail(inputValue)
-        }
+        } else if (inputType === 'message')
+            setMessage(inputValue)
     };
     // SET VARIABLE TO HANDLE FORM SUBMISSIONS
     const handleFormSubmit = (e) => {
@@ -30,17 +32,22 @@ const Contact = () => {
             setErrorMessage('Email not valid.  Please try again')
             return;
         }
+
+        if(!message) {
+            setErrorMessage('Message needed')
+            return;
+        }
         // SETS EMPTY FIELDS FOR OUR FORM AND ERROR MESSAGE AFTER EMAIL VALIDATOR ACCEPTS IT
         setUserName('');
         setEmail('');
+        setMessage('')
         setErrorMessage('');
     }
   return (
     <div>
-        <h3>Rod's Email: <a href="mailto: rod.bennett75@gmail.com">rod.benett75@gmail.com</a></h3>
-        <h3> Check out Rod's <a href="https://github.com/RodBennett">Github Profile</a> here</h3>
+        <h3>Email me @<a href="mailto: rod.bennett75@gmail.com">rod.benett75@gmail.com</a></h3>
         <h3 className='or'> OR </h3>
-        <h3> Sign-up for Rod's mailing list here:</h3>
+        <h3>Contact me with any questions:</h3>
         <form className="form">
             <label className="label">Name:</label><br></br>
             <input className='input-field'
@@ -57,6 +64,14 @@ const Contact = () => {
                 onChange={handleInputChange}
                 type="email"
                 placeholder="Please enter your email"
+            /><br></br>
+             <label>Message:</label><br></br>
+            <input className='message-field'
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Please write a message here"
             /><br></br>
             <button className='button' type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
