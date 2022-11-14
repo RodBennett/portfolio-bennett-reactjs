@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/porfolio-bennett-reactjs/static/css/main.0c4ad4ce.css",
+    "main.js": "/porfolio-bennett-reactjs/static/js/main.e3009d02.js",
+    "static/media/profile.jpeg": "/porfolio-bennett-reactjs/static/media/profile.878080e45d5b7bcbc569.jpeg",
+    "static/media/hikamp.png": "/porfolio-bennett-reactjs/static/media/hikamp.4bfcc3b5c77c74f82a52.png",
+    "static/media/nps.png": "/porfolio-bennett-reactjs/static/media/nps.7f8f6fb0eb10e7eec704.png",
+    "static/media/weather.png": "/porfolio-bennett-reactjs/static/media/weather.15f56f103e63f6c42bcf.png",
+    "static/media/quiz-image.png": "/porfolio-bennett-reactjs/static/media/quiz-image.2a6ab7165f451830c5b9.png",
+    "static/media/notetaker.png": "/porfolio-bennett-reactjs/static/media/notetaker.0599375b87f2d7b006a5.png",
+    "static/media/text-editor.png": "/porfolio-bennett-reactjs/static/media/text-editor.d015616e992ecfa90d5d.png",
+    "index.html": "/porfolio-bennett-reactjs/index.html",
+    "main.0c4ad4ce.css.map": "/porfolio-bennett-reactjs/static/css/main.0c4ad4ce.css.map",
+    "main.e3009d02.js.map": "/porfolio-bennett-reactjs/static/js/main.e3009d02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4ad4ce.css",
+    "static/js/main.e3009d02.js"
+  ]
+}
