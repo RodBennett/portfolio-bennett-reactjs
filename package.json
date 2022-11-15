@@ -1,7 +1,8 @@
-{ "name": "bennett-portfolio",
+{ 
+"name": "bennett-portfolio",
 "version": "0.1.0",
 "private": true,
-"homepage": "https://rodbennett.github.io/porfolio-bennett-reactjs",
+"homepage": "https://rodbennett.github.io/portfolio-bennett-reactjs",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
