@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-bennett-reactjs/static/css/main.0c4ad4ce.css",
-    "main.js": "/portfolio-bennett-reactjs/static/js/main.f5364c7d.js",
+    "main.css": "/portfolio-bennett-reactjs/static/css/main.b819297f.css",
+    "main.js": "/portfolio-bennett-reactjs/static/js/main.78f4adc2.js",
     "static/media/profile.jpeg": "/portfolio-bennett-reactjs/static/media/profile.878080e45d5b7bcbc569.jpeg",
     "static/media/hikamp.png": "/portfolio-bennett-reactjs/static/media/hikamp.4bfcc3b5c77c74f82a52.png",
     "static/media/nps.png": "/portfolio-bennett-reactjs/static/media/nps.7f8f6fb0eb10e7eec704.png",
@@ -10,11 +10,11 @@
     "static/media/notetaker.png": "/portfolio-bennett-reactjs/static/media/notetaker.0599375b87f2d7b006a5.png",
     "static/media/text-editor.png": "/portfolio-bennett-reactjs/static/media/text-editor.d015616e992ecfa90d5d.png",
     "index.html": "/portfolio-bennett-reactjs/index.html",
-    "main.0c4ad4ce.css.map": "/portfolio-bennett-reactjs/static/css/main.0c4ad4ce.css.map",
-    "main.f5364c7d.js.map": "/portfolio-bennett-reactjs/static/js/main.f5364c7d.js.map"
+    "main.b819297f.css.map": "/portfolio-bennett-reactjs/static/css/main.b819297f.css.map",
+    "main.78f4adc2.js.map": "/portfolio-bennett-reactjs/static/js/main.78f4adc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4ad4ce.css",
-    "static/js/main.f5364c7d.js"
+    "static/css/main.b819297f.css",
+    "static/js/main.78f4adc2.js"
   ]
 }
