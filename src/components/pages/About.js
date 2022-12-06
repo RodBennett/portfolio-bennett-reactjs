@@ -17,7 +17,7 @@ const About = () => {
         {'\n'}
         This portfolio has been created in Reactjs to showcase some of the web development work {'\n'}
         I have done in bootcamp.  If you click on the "portfolio" tab above, you can {'\n'}
-        see 6 projects that we did in our class.  The first 2 projects,"HiKamp" and{'\n'} 
+        see 6 projects that we did in our class.  The first 3 projects, "Team Handbook", "HiKamp", and{'\n'} 
         "National Park", were works of collaboration, while the other 4 were done solo. {'\n'}
         {'\n'}
         I have a particular interest in back-end development but ultimately would like to work {'\n'}
