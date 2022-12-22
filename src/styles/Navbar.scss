@@ -2,6 +2,7 @@ body {
     background-color: #92c9d5;
     display: flex;
     flex-wrap: wrap;
+    width: 100%
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fantasy:wght@300;400&display=swap');
@@ -85,6 +86,9 @@ body {
         }
     }
     @media only screen and (max-width: 762px) {
+        * {
+            width: 100%
+        }
         .brand {
             padding: 20px;
             font-size: 1.5rem;
@@ -100,7 +104,7 @@ body {
         .navbar {
             display: flex;
             flex-direction: column;
-            width: 104%;
+            width: 105%;
             height: 15vh;
             font-family: monospace;
             background-color: #fcf2ec;
@@ -114,6 +118,7 @@ body {
         }
         .link-list-item {
             font-size: 1rem;
+            margin-right: 10px;
         }
     
             .brand {
