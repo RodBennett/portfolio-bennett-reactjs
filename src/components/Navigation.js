@@ -1,48 +1,37 @@
-import '../styles/Header.scss'
+import "../styles/Navbar.scss"
 
-function Navigation ( {currentPage, handlePageChange }) {
+import { Navbar, Nav, Row, Container, NavDropdown } from "react-bootstrap"
 
-  return (
-    <header>
-    <nav>
-    <ul className="list">
-        <li className="nav-item">
-            <a href="#about"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
-        
-            >
-                About Me
-            </a>
-        </li>
-        <li className="nav-item">
-            <a href="#portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
-            >
-                Portfolio
-            </a>
-        </li>
-        <li className="nav-item">
-            <a href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === "contact" ? "nav-link active" : "nav-link"}
-            >
-                Contact
-            </a>
-        </li>
-        <li className="nav-item">
-            <a href="#resume"
-            onClick={() => handlePageChange('Resume')}
-            className={currentPage === "resume" ? "nav-link active" : "nav-link"}
-            >
-                Resume
-            </a>
-        </li>
-    </ul>
-    </nav>
-    </header>
-  )
+export default function Navigation({ currentPage, handlePageChange }) {
+
+    return (
+        <>
+            <Navbar bg="dark" variant="dark">
+                
+                    <Navbar.Brand className="brand">Rod Bennett</Navbar.Brand>
+                    <Nav className="link-list link-list-item">
+                    <Nav.Link href="#about"
+                        onClick={() => handlePageChange("About")}
+                        className={currentPage === "About" ? "nav-link active" : "nav-link"}>
+                        About
+                    </Nav.Link>
+                    <Nav.Link href="#portfolio"
+                        onClick={() => handlePageChange("Portfolio")}
+                        className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}>
+                        Portfolio
+                    </Nav.Link>
+                    <Nav.Link href="#contact"
+                        onClick={() => handlePageChange("Contact")}
+                        className={currentPage === "About" ? "nav-link active" : "nav-link"}>
+                        Contact
+                    </Nav.Link>
+                    <Nav.Link href="#resume"
+                        onClick={() => handlePageChange("Resume")}
+                        className={currentPage === "About" ? "nav-link active" : "nav-link"}>
+                        Resume
+                    </Nav.Link>
+                    </Nav>
+            </Navbar>
+        </>
+    );
 }
-
-export default Navigation

@@ -1,35 +1,81 @@
 .about-container {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     font-family: monospace;
     padding: 20px;
+    width: 100%;
+    // justify-content: center;
+
+    .section-header {
+        padding: 5px;
+        font-family: monospace;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+        font-weight: bold;
+
+        .profile-pic {
+            max-width: 200px;
+            border-radius: 50%;
+            max-height: 200px;
+            margin-left: 30px;
+        }
+
+        .profile-text {
+            width: 100%;
+            flex-wrap: wrap;
+            display: flex;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
 }
 
-.section-header {
-    padding: 5px;
-    font-family: monospace;
-    font-style: italic;
-    margin-top: 10px;
-    font-size: 1.7rem;
-    margin-left: 50px;
+
+
+@media only screen and (min-width: 600px) {
+    .profile-text {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 1rem;
+    }
+
+    .profile-pic {
+        max-width: 200px;
+        border-radius: 50%;
+        max-height: 200px;
+        margin-left: 20px;
+    }
 }
 
-.profile-pic { 
-    // max-width: 400px;
-    border-radius: 50%;
-    max-height: 250px;
-    margin-left: 30px;
-}
 
-.profile-text {
-    display: flex;
-    font-size: 1rem;
-    flex: 2 1;
-}
+@media only screen and (max-width: 600px) {
+    .section-header {
+        text-align: center;
+        margin-right: 40px;
+        margin-left: 0px;
+        text-decoration: bold;
+    }
+    .profile-pic {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        max-width: 150px;
+        max-height: 150px;
+    }
 
-// @media only screen and (min-width: 600px) {
-//     body {
-//         // background-color: rgb(163, 218, 237);
-//         background-color: #92c9d5;
-//         flex-direction: column;
-//     }
-// }
+    .about-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profile-text {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+
+
+}

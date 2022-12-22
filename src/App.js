@@ -2,7 +2,6 @@
 import { useState } from 'react'
 
 // import all pages to be accessed via Navigation
-import Header from './components/Header';
 import React from 'react'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer';
@@ -38,7 +37,6 @@ function App() {
     // App.js handles the full page display
 return (
     <div>
-        <Header />
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
         {renderPage()}
         <Footer />
