@@ -50,7 +50,7 @@ const Contact = () => {
         <h3 className='or'> or</h3>
         <h3>Contact me with any questions:</h3></div>
         <form className="form">
-            <label className="label">Name:</label><br></br>
+            <label className="label">Name:</label>
             <input className='input-field'
                 value={userName} 
                 name="username"
@@ -58,7 +58,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Please enter your name"
                 /><br></br>
-            <label>Email:</label><br></br>
+            <label>Email:</label>
             <input className='input-field'
                 value={email}
                 name="email"
@@ -66,7 +66,7 @@ const Contact = () => {
                 type="email"
                 placeholder="Please enter your email"
             /><br></br>
-             <label>Message:</label><br></br>
+             <label>Message:</label>
             <input className='message-field'
                 value={message}
                 name="message"
