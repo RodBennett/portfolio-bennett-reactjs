@@ -9,9 +9,10 @@
     .project-card {
         padding: 5px 0 0 0;
         margin: 10px;
-        max-width: 30%;
+        // width: 50%;
         margin-top: 10px;
         margin-bottom: 30px;
+
 
         .project-header {
             text-decoration: none;
@@ -21,6 +22,7 @@
             width: 95%;
             padding: 5px;
             box-shadow: #355c7d 0px 0px 1px 1px;
+            background-color: #fcf2ec;
 
             .project-text {
                 margin-top: 20px;
@@ -29,6 +31,7 @@
                 margin: auto;
                 font-size: 1.5rem;
                 text-decoration: none;
+                color: #355c7d
             }
 
             .hide {
@@ -78,7 +81,27 @@
     padding: 5px;
     font-family: monospace;
     margin-top: 10px;
-    font-size: 1.7rem;
-    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-left: 50px;
     font-weight: bold;
+}
+
+.header-text{
+    font-style:italic;
+    font-size: 1rem;
+    margin-left: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+    .project-card {
+        max-width: 40%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-card {
+        max-width: 80%;
+        margin: 10px;
+    }
 }

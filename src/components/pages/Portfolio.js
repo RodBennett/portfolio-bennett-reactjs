@@ -5,7 +5,8 @@ import projects from '../../projects'
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
-      <h2 className='section-header'>Portfolio: Hover over headers to see GitHub repositories</h2>
+      <p className='section-header'>Portfolio </p>
+      <p className="header-text">Hover over headers to see GitHub repositories</p>
       <Project projects={projects}/>
     </div>
   )

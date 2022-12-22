@@ -62,7 +62,7 @@ body {
         color: #355c7d;
     }
 
-    @media only screen and (min-width: 676px) {
+    @media only screen and (min-width: 600px) {
         * {
             width: 100%
         }
@@ -84,15 +84,23 @@ body {
             padding: 20px;
         }
     }
+    @media only screen and (max-width: 762px) {
+        .brand {
+            padding: 20px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
 
-    @media only screen and (max-width: 676px) {
+
+    @media only screen and (max-width: 600px) {
         * {
             width: 100%
         }
         .navbar {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 104%;
             height: 15vh;
             font-family: monospace;
             background-color: #fcf2ec;
@@ -103,6 +111,9 @@ body {
             display: flex;
             justify-content: flex-end;
             list-style: none;
+        }
+        .link-list-item {
+            font-size: 1rem;
         }
     
             .brand {
