@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-bennett-reactjs/static/css/main.7c88152a.css",
+    "main.css": "/portfolio-bennett-reactjs/static/css/main.e503ec0f.css",
     "main.js": "/portfolio-bennett-reactjs/static/js/main.2f39c7f3.js",
     "static/media/profile.jpeg": "/portfolio-bennett-reactjs/static/media/profile.878080e45d5b7bcbc569.jpeg",
     "static/media/hikamp.png": "/portfolio-bennett-reactjs/static/media/hikamp.4bfcc3b5c77c74f82a52.png",
@@ -10,11 +10,11 @@
     "static/media/quiz-image.png": "/portfolio-bennett-reactjs/static/media/quiz-image.2a6ab7165f451830c5b9.png",
     "static/media/text-editor.png": "/portfolio-bennett-reactjs/static/media/text-editor.d015616e992ecfa90d5d.png",
     "index.html": "/portfolio-bennett-reactjs/index.html",
-    "main.7c88152a.css.map": "/portfolio-bennett-reactjs/static/css/main.7c88152a.css.map",
+    "main.e503ec0f.css.map": "/portfolio-bennett-reactjs/static/css/main.e503ec0f.css.map",
     "main.2f39c7f3.js.map": "/portfolio-bennett-reactjs/static/js/main.2f39c7f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c88152a.css",
+    "static/css/main.e503ec0f.css",
     "static/js/main.2f39c7f3.js"
   ]
 }
