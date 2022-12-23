@@ -1,4 +1,4 @@
-// import Github
+// import Github icon
 import { FaGithub } from 'react-icons/fa'
 
 // import styles

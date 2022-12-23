@@ -2,7 +2,7 @@
 const projects = [
     {
         id: 1,
-        link: "https://dpk5e7-team-handbook.herokuapp.com/",
+        link: "https://team-handbook.herokuapp.com/",
         title: "Team Handbook",
         github: "https://github.com/dpk5e7/shakespeares-monkeys",
         image: require("./images/team-handbook.png"),
@@ -44,4 +44,4 @@ const projects = [
     },
 ];
 
-export default projects
+export default projects;

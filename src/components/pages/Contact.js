@@ -8,9 +8,11 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
     const [message, setMessage] = useState('');
+    const [subject, setSubject] = useState('');
+
 
     // VALIDATE EMAIL ADDRESS HERE WITH HELPERIN UTILS
-    const [errorMessage, setErrorMessage] = useState('');
+    const [errormessage, setErrorMessage] = useState('');
 
     // SET VARIABLE TO HANDLE CHANGES ON INPUT FORM WITH USESTATE
     const handleInputChange = (e) => {
@@ -22,12 +24,18 @@ const Contact = () => {
             setUserName(inputValue);
         } else if (inputType === 'email') {
             setEmail(inputValue)
+        } else if (inputType === 'subject') {
+            setSubject(inputValue)
         } else if (inputType === 'message')
             setMessage(inputValue)
     };
     // SET VARIABLE TO HANDLE FORM SUBMISSIONS
     const handleFormSubmit = (e) => {
         e.preventDefault();
+        if (!userName) {
+            setErrorMessage('Name is required')
+            return;
+        }
         if (!validateEmail(email)) {
             setErrorMessage('Email not valid.  Please try again')
             return;
@@ -37,12 +45,30 @@ const Contact = () => {
             setErrorMessage('Message needed')
             return;
         }
-        // SETS EMPTY FIELDS FOR OUR FORM AND ERROR MESSAGE AFTER EMAIL VALIDATOR ACCEPTS IT
+
+        if(!subject) {
+            setErrorMessage('Please enter a subject')
+            return;
+        }
+        
+        if(userName && validateEmail(email) && message && subject) {
+            launchEmail();
+        }
+        // SETS EMPTY FIELDS FOR OUR FORM AND ERROR msessage AFTER EMAIL VALIDATOR ACCEPTS IT
         setUserName('');
         setEmail('');
         setMessage('')
+        setSubject('');
         setErrorMessage('');
-    }
+    };
+
+    const launchEmail = () => {
+        console.log(userName, subject, message);
+        window.open(
+          `mailto:rod.bennett75@gmail.com?subject=${subject}&&body=${message}`
+        );
+        return false;
+      };
   return (
     <div>
         <div className='contact-head'>
@@ -67,6 +93,14 @@ const Contact = () => {
                 type="email"
                 placeholder="Please enter your email"
             /><br></br>
+            <label>Subject:</label>
+            <input className='input-field'
+                value={subject}
+                name="subject"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Re: "
+            /><br></br>
              <label>Message:</label>
             <input className='message-field'
                 value={message}
@@ -78,9 +112,9 @@ const Contact = () => {
             <button className='button' type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         
-        {errorMessage && (
+        {errormessage && (
             <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error-text">{errormessage}</p>
             </div>
         )}
     </div>
