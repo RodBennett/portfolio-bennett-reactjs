@@ -104,14 +104,15 @@ body {
         }
         .link-list {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             list-style: none;
-            margin-right: 50px;
+            margin-right: 10px;
             width: 80%
         }
         .link-list-item {
             font-size: 1rem;
             margin-right: 20px;
+            text-align: center;
         }
     
             .brand {
