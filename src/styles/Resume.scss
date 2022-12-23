@@ -1,6 +1,15 @@
 .resume-container {
     font-family: monospace;
 
+    .resume-header{
+        padding: 0px;
+        font-family: monospace;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
     .resume-link {
         padding: 20px;
     }

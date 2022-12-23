@@ -1,6 +1,16 @@
 * {
-    width: 100%
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #92c9d5;
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
 footer {
     background-color: #355c7d;
     position: relative;
@@ -22,4 +32,5 @@ i {
     color: #fcf2ec;
     margin: 20px;
 }
+
 

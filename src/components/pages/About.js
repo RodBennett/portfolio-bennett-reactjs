@@ -5,12 +5,11 @@ import image from '../../images/profile.jpeg'
 const About = () => {
   return (
     <div className='about-container'>
-       <p className="section-header">About Me</p>
+       <p className="section-header about">About</p> <br></br>
       <img className="profile-pic"src={image} alt="Profile"></img>
       <p className='profile-text'> <br></br>
         Hello! Welcome to my coding portfolio. <br></br> <br></br>
-        My name is Rod Bennett and over the last six months I have been learning how to code
-        at the University of Denver's bootcamp. During these last few months, I have developed
+        My name is Rod Bennett and I have recently graduated from the University of Denver's 6-month long bootcamp. During these last few months, I have developed
         a strong passion for web and software development. <br></br> <br></br>
         This portfolio has been created in Reactjs to showcase some of the web development work
         I have done in bootcamp.  If you click on the "portfolio" tab above, you can

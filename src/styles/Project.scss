@@ -1,3 +1,18 @@
+.portfolio-header {
+    padding: 0px;
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.header-text{
+    font-style:italic;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
 .project-container {
     font-family: monospace;
     display: flex;
@@ -20,7 +35,7 @@
             text-align: center;
             border-radius: 10px 10px 0 0;
             width: 95%;
-            padding: 5px;
+            padding: 10px;
             box-shadow: #355c7d 0px 0px 1px 1px;
             background-color: #fcf2ec;
 
@@ -75,21 +90,6 @@
     .image:active {
         box-shadow: rgb(50, 45, 45) 2px 2px 2px 2px;
     }
-}
-
-.section-header {
-    padding: 5px;
-    font-family: monospace;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    margin-left: 30px;
-    font-weight: bold;
-}
-
-.header-text{
-    font-style:italic;
-    font-size: 1rem;
-    margin-left: 30px;
 }
 
 @media only screen and (min-width: 600px) {

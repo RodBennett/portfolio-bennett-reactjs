@@ -46,9 +46,10 @@ const Contact = () => {
   return (
     <div>
         <div className='contact-head'>
-        <h3>Email me @<a href="mailto: rod.bennett75@gmail.com">rod.bennett75@gmail.com</a></h3>
-        <h3 className='or'> or</h3>
-        <h3>Contact me with any questions:</h3></div>
+            <p className="contact-header">Contact</p><br></br>
+        <h4>Email me @<a href="mailto: rod.bennett75@gmail.com">rod.bennett75@gmail.com</a></h4>
+        <h4 className='or'> or</h4>
+        <h4>Contact me with any questions:</h4></div>
         <form className="form">
             <label className="label">Name:</label>
             <input className='input-field'

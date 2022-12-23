@@ -1,19 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #92c9d5;
-    display: flex;
+    box-sizing: border-box; 
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+    margin: 0;
+    padding: 0
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fantasy:wght@300;400&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-style: monospace;
-    box-sizing: border-box;
-    width: 100%;
-}
 
 .navbar {
     display: flex;
@@ -34,7 +32,7 @@ body {
         display: flex;
         justify-content: flex-end;
         list-style: none;
-        
+    //    width: 20%;
         margin-left: 20px;
     }
 
@@ -64,9 +62,6 @@ body {
     }
 
     @media only screen and (min-width: 600px) {
-        * {
-            width: 100%
-        }
         .navbar {
             display: flex;
             padding: 10px;
@@ -83,12 +78,11 @@ body {
             justify-content: flex-end;
             list-style: none;
             padding: 20px;
+            width: 70%
         }
     }
     @media only screen and (max-width: 762px) {
-        * {
-            width: 100%
-        }
+        
         .brand {
             padding: 20px;
             font-size: 1.5rem;
@@ -98,9 +92,6 @@ body {
 
 
     @media only screen and (max-width: 600px) {
-        * {
-            width: 100%
-        }
         .navbar {
             display: flex;
             flex-direction: column;
@@ -115,6 +106,8 @@ body {
             display: flex;
             justify-content: flex-end;
             list-style: none;
+            margin-right: 10px;
+            width: 60%
         }
         .link-list-item {
             font-size: 1rem;
