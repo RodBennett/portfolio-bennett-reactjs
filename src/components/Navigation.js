@@ -7,12 +7,14 @@ export default function Navigation({ currentPage, handlePageChange }) {
     return (
         <>
             <Navbar bg="dark" variant="dark">
-                
+                <Navbar.Brand className="brand">
                     <Nav.Link href="#about" onClick={() => handlePageChange("About")}>
-                        <Navbar.Brand className="brand">Rod Bennett</Navbar.Brand>
-                    </Nav.Link>                                           
+                        <span className="brand-name">
+                        Rod Bennett</span>
+                    </Nav.Link>
+                </Navbar.Brand>
 
-                    <Nav className="link-list link-list-item">
+                <Nav className="link-list link-list-item">
                     <Nav.Link href="#about"
                         onClick={() => handlePageChange("About")}
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
@@ -33,7 +35,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                         className={currentPage === "About" ? "nav-link active" : "nav-link"}>
                         Resume
                     </Nav.Link>
-                    </Nav>
+                </Nav>
             </Navbar>
         </>
     );
