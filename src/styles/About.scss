@@ -26,7 +26,7 @@ body {
         margin-bottom: 10px;
         margin-top: 0px;
         font-size: 1.5rem;
-        margin-left: 50px;
+        margin-left: 30px;
         font-weight: bold;
     }
 
@@ -45,7 +45,7 @@ body {
         display: flex;
         font-size: 1rem;
         // margin: auto;
-        margin-left: 40px
+        margin-left: 30px
     }
 }
 
@@ -71,6 +71,13 @@ body {
         display: flex;
         margin-right: 30px;
     }
+
+    .profile-text {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+        margin: auto;
+    }
     
     .profile-pic {
         margin-top: 20px;
@@ -86,12 +93,6 @@ body {
         flex-wrap: wrap;
     }
 
-    .profile-text {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 1rem;
-        margin-left: 0px;
-    }
 
 
 }
