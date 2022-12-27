@@ -5,7 +5,7 @@ import image from '../../images/profile.jpeg'
 const About = () => {
   return (
     <div className='about-container'>
-       <p className="about-header">About</p><br></br>
+       <p className="about-header">About</p>
       <img className="profile-pic"src={image} alt="Profile"></img>
       <p className='profile-text'> <br></br>
         Hello! Welcome to my coding portfolio. <br></br> <br></br>
