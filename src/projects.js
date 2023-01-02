@@ -30,10 +30,10 @@ const projects = [
     },
     {
         id: 5,
-        link: "https://rodbennett.github.io/04-coding-mini-quiz/",
-        title: "JS Coding Quiz",
-        github: "https://github.com/RodBennett/04-coding-mini-quiz",
-        image: require("./images/quiz-image.png"),
+        link: "https://rb-tech-blog.herokuapp.com/",
+        title: "Tech Blog",
+        github: "https://github.com/RodBennett/14-Tech-Blog",
+        image: require("./images/blog.png"),
     },
     {
         id: 6,

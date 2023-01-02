@@ -43,7 +43,6 @@ body {
         flex-wrap: wrap;
         display: flex;
         font-size: 1rem;
-        // margin: auto;
         margin-left: 30px
     }
 }
@@ -97,6 +96,7 @@ body {
         
     }
 
-
-
+    .profile-text {
+        margin-left: 0px;
+    }
 }
