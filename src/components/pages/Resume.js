@@ -6,14 +6,14 @@ const Resume = () => {
   return (
     <div className='resume-container'>
       <p className="resume-header">Resume</p>
-      <h2 className='resume-link'>See my<a href='https://docs.google.com/document/d/1RFxVQdqRXlbNSqdpEqL0YzbBCgFjPnWawrxtlX0J0-0/edit?usp=sharing' target='blank'>resume</a>here</h2>
+      <h2 className='resume-link'>See my<a href='https://drive.google.com/file/d/1cZdm8YUZn2HabD7xvrkb8kND1gVEq4G0/view?usp=share_link' target='blank'>resume</a>here</h2>
       <h2 className='resume-headers'>Front-end Proficiencies:</h2>
         <ul className='resume-list'>
           <li className='resume-items'>HTML</li>
           <li className='resume-items'>CSS</li>
           <li className='resume-items'>JavaScript</li>
           <li className='resume-items'>Reactjs</li>
-          <li className='resume-items'>Bootstrap/Bulma</li>
+          <li className='resume-items'>Bootstrap/Semantic UI/React Bootstrap</li>
           <li className='resume-items'>Responsive Design</li>
           <li className='resume-items'>Jquery</li>
           </ul>

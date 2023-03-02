@@ -84,6 +84,7 @@ body {
         border-radius: 50%;
         max-width: 150px;
         max-height: 150px;
+        align-items: center;
     }
 
     .about-container {
@@ -99,4 +100,11 @@ body {
     .profile-text {
         margin-left: 0px;
     }
+}
+
+@media only screen and (max-width: 400px) {
+.profile-pic {
+    align-items: center;
+}
+
 }
