@@ -41,7 +41,7 @@
       .project-text {
         text-align: center;
         margin: auto;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
         font-size: 1.1rem;
         text-decoration: none;
         color: #355c7d;
@@ -71,7 +71,8 @@
     }
 
     .project-footer {
-      text-decoration: underline;
+      text-decoration: none;
+      list-style: disc;
       height: 22%;
       text-align: center;
       border-radius: 0px 0px 10px 10px;
@@ -79,7 +80,17 @@
       padding: 7px;
       box-shadow: #355c7d 0px 0px 1px 1px;
       background-color: #fcf2ec;
+      color: #355c7d;
       margin-bottom: 20px;
+      font-size: .8rem;
+
+      .description {
+        margin-bottom: 5px;
+        text-decoration: underline;
+      }
+      .footer-technologies {
+
+      }
     }
     .image {
       box-shadow: grey 0px 1px 1px 1px;
@@ -106,11 +117,38 @@
     box-shadow: 1px 0px 2px 2px;
   }
 }
+@media only screen and (max-width: 850px) {
+  .project-footer {
+  font-size: .6rem
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .project-footer {
+  font-size: .5rem
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .project-footer {
+  font-size: .4rem
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-footer {
+  font-size: .4rem
+  }
+}
+
 
 @media only screen and (min-width: 600px) {
   .project-card {
     max-width: 40%;
     margin: 10px;
+  }
+  .github {
+    margin-bottom: 20px;
   }
 }
 
@@ -131,7 +169,7 @@
     height: 30%;
   }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 400px) {
   .project-header {
     height: 20%;
   }

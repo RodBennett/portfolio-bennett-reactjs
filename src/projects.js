@@ -6,13 +6,7 @@ const projects = [
         title: "Integral Solutions",
         github: "https://github.com/RodBennett/integral-solutions-fork",
         image: require("./images/integral-solutions.png"),
-        desc: [
-            {list: "Mern"},
-            {list: "Mern"},
-            {list: "Mern"},
-            {list: "Mern"},
-
-        ] 
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
 
         
     },
@@ -22,6 +16,8 @@ const projects = [
         title: "Team Handbook",
         github: "https://github.com/dpk5e7/shakespeares-monkeys",
         image: require("./images/team-handbook.png"),
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
+
     },
     {
         id: 3,
@@ -29,13 +25,18 @@ const projects = [
         title: "HiKamp",
         github: "https://github.com/stevecalla/hiKamp",
         image: require("./images/hikamp.png"),
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
+
     },
+
     {
         id: 4,
         link: "https://drewlovato.github.io/project1-nationalparks/",
         title: "National Park",
         github: "https://github.com/drewlovato/project1-nationalparks",
         image: require("./images/nps.png"),
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
+
     },
     {
         id: 5,
@@ -43,6 +44,8 @@ const projects = [
         title: "Weather Forecast",
         github: "https://github.com/RodBennett/06-weather-app-challenge",
         image: require("./images/weather.png"),
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
+
     },
     {
         id: 6,
@@ -50,6 +53,8 @@ const projects = [
         title: "Tech Blog",
         github: "https://github.com/RodBennett/14-Tech-Blog",
         image: require("./images/blog.png"),
+        desc: "Public-facing MERN full-stack for local furniture office installation company with robust CRUD functionality for Employees and Administrators. Uses GraphQL, Apollo Server, and Apollo Client"
+
     }
 ];
 
