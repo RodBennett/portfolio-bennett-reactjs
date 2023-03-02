@@ -24,7 +24,7 @@ body {
         padding: 20px;
         font-size: 2rem;
         width: 80%;
-        margin-left: 20px;
+        margin-left: 0px;
         justify-content: flex-start
     }
     .brand-name {
@@ -45,7 +45,7 @@ body {
         font-family: monospace;
         font-weight: 400;
         color: #355c7d;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
     .nav-link {
@@ -90,6 +90,7 @@ body {
             padding: 20px;
             font-size: 1.5rem;
             text-align: center;
+
         }
     }
 
@@ -122,6 +123,7 @@ body {
                 padding: 10px;
                 font-size: 1.5rem;
                 text-align: center;
+                margin-right: -10px
             }
         }
 
