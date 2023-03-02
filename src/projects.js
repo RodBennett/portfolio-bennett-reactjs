@@ -6,6 +6,15 @@ const projects = [
         title: "Integral Solutions",
         github: "https://github.com/RodBennett/integral-solutions-fork",
         image: require("./images/integral-solutions.png"),
+        desc: [
+            {list: "Mern"},
+            {list: "Mern"},
+            {list: "Mern"},
+            {list: "Mern"},
+
+        ] 
+
+        
     },
     {
         id: 2,

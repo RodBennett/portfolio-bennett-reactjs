@@ -13,9 +13,8 @@ const About = () => {
         During these last few months, I have developed
         a strong passion for web and software development. <br></br> <br></br>
         This portfolio has been created in Reactjs to showcase some of the web development work
-        I have done in bootcamp.  If you click on the "portfolio" tab above, you can
-        see 6 projects that we did in our class.  The first 3 projects, "Team Handbook", "HiKamp", and 
-        "National Park", were works of collaboration, while the other 3 were done solo. <br></br> <br></br>
+        I have done as a developer.  If you click on the "portfolio" tab above, you can
+        see 6 projects that we did in our class.  The first project, "Integral Solutions", was written for a local Denver based office furniture installation company, which is now in production and used by the company.  The next 3 projects, "Team Handbook", "HiKamp", and "National Park", were works of collaboration, while the last 2 were done solo. <br></br> <br></br>
         I have a particular interest in back-end development but ultimately would like to work
         in the field as a full-stack developer to help small-business owners get started. <br></br> <br></br>
         Please enjoy the tour of the apps, and if you have any questions or comments, then you

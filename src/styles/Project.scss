@@ -42,41 +42,53 @@
             .project-text {
                 text-align: center;
                 margin: auto;
+                margin-bottom: 5px;
                 font-size: 1.3rem;
                 text-decoration: none;
                 color: #355c7d
             }
 
             .project-text:hover {
+                display: block;
+                transition: opacity .5s;
                 text-decoration: underline;
             }
 
-            .hide {
-                display: none;
+            .github {
+                // display: none;
                 color: #355c7d;
+                opacity: 15%;
                 font-size: 2.3rem;
                 margin: auto;
+                // margin-top: 10px;
             }
 
-            .project-text:hover+.hide {
-                display: block;
-                opacity: 0%;
-                transition: opacity .5s;
-            }
-
-            .hide:hover {
+            .github:hover {
                 display: block;
                 opacity: 100%;
                 transition: opacity 1s;
+                margin-top: -10px;
             }
         }
 
+        .project-footer {
+            text-decoration: underline;
+            height: 85px;
+            text-align: center;
+            border-radius: 0px 0px 10px 10px;
+            width: 95%;
+            padding: 7px;
+            box-shadow: #355c7d 0px 0px 1px 1px;
+            background-color: #fcf2ec;
+
+
+
+        }
         .image {
-            border-radius: 0 0 10px 10px;
             box-shadow: grey 0px 1px 1px 1px;
             margin: 0px;
             width: 95%;
-            height: 80%;
+            height: 60%;
             padding: 5px;
 
         }
@@ -92,6 +104,10 @@
 
     .image:active {
         box-shadow: rgb(50, 45, 45) 2px 2px 2px 2px;
+    }
+
+    .project-footer:hover {
+        box-shadow: 1px 0px 2px 2px;
     }
 }
 

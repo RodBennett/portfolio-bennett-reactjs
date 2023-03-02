@@ -11,10 +11,12 @@ const Project = ({ projects }) => {
             <a className="project-card" href={`${project.link}`} target='blank' key={project.id}>
                 <header className='project-header'>
                     <h4 className='project-text'>{`${project.title}`}</h4>
-                    <a className='hide' href={`${project.github}`} target='blank'>
+                    <a className='github' href={`${project.github}`} target='blank'>
                         <FaGithub /></a></header>
                 <img className="image" src={`${project.image}`} alt="hikamp"></img>
+                <div className="project-footer"></div>
             </a>
+
             ))}
         </div>
     )
