@@ -51,7 +51,7 @@ const projects = [
         title: "Tech Blog",
         github: "https://github.com/RodBennett/14-Tech-Blog",
         image: require("./images/blog.png"),
-        desc: "RESTful Tech Blog with all CRUD methods bult with Handlebars engine"
+        desc: "RESTful Tech Blog with all CRUD methods built with Handlebars"
 
     }
 ];
