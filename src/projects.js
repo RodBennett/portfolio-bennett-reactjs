@@ -42,7 +42,7 @@ const projects = [
         title: "Weather Forecast",
         github: "https://github.com/RodBennett/06-weather-app-challenge",
         image: require("./images/weather.png"),
-        desc: "App to search 5-day forecast with Open Weather API"
+        desc: "Open Weather API app to search 5-day forecast"
 
     },
     {
